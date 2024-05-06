@@ -1,0 +1,24 @@
+dark red: #FF3B30
+red: #FF4530
+dark orange: #FF9500
+orange: #FF9F0A
+dark yellow: #FFCC00
+yellow: #FFD60A
+dark green: #34C759
+green: #30D158
+dark mint: #00C7BE
+mint: #63E6E2
+dark teal: #30B0C7
+teal: #40C8E0
+dark cyan: #32ADE6
+cyan: #64D2FF
+dark blue: #007AFF
+blue: #0A84FF
+dark indigo: #5856D6
+indigo: #5E5CE6
+dark purple: #AF52DE
+purple: #BF5AF2
+dark pink: #FF2D55
+pink: #FF375F
+dark brown: #A2845E
+brown: #AC8E68

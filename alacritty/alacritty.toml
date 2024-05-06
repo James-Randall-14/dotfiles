@@ -1,0 +1,8 @@
+
+# Font Config
+[font]
+normal.family = "SF Mono Nerd Font"
+bold.family = "SF Mono Nerd Font"
+italic.family = "SF Mono Nerd Font"
+bold_italic.family = "SF Mono Nerd Font"
+
