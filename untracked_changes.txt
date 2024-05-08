@@ -14,3 +14,4 @@ This is a list of everything that I have changed about this system that I can't 
   - (Script in /scripts)
 8. I installed a macOS SF Mono Nerd Font
 9. I replaced the loupe bin with a script to launch it with the correct theme
+10. I wrote a script for moving files to the trash instead of rm -rf

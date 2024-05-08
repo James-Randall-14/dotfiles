@@ -1,1 +1,0 @@
-/home/james/.local/bin/pkg_cleanup.sh

@@ -6,6 +6,11 @@ import = ['~/.config/alacritty/colors.toml']
 # Set Fish Shell
 shell = '/bin/fish'
 
+# Set padding
+[window]
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+
 # Font Config
 [font]
 normal.family = 'SFMono'
