@@ -1,8 +1,14 @@
+# Main Alacritty Config File
+
+# Import other config files
+import = ['~/.config/alacritty/colors.toml']
+
+# Set Fish Shell
+shell = '/bin/fish'
 
 # Font Config
 [font]
-normal.family = "SF Mono Nerd Font"
-bold.family = "SF Mono Nerd Font"
-italic.family = "SF Mono Nerd Font"
-bold_italic.family = "SF Mono Nerd Font"
-
+normal.family = 'SFMono'
+bold.family = 'SFMono'
+italic.family = 'SFMono'
+bold_italic.family = 'SFMono'

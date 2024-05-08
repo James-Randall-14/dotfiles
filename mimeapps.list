@@ -1,0 +1,6 @@
+[Default Applications]
+text/plain=/usr/share/applications/nvim.desktop
+image/png=org.gnome.Loupe.desktop
+
+[Added Associations]
+image/png=org.gnome.Loupe.desktop;

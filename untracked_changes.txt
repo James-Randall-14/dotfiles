@@ -1,0 +1,16 @@
+This is a list of everything that I have changed about this system that I can't track with dotfiles.
+
+1. I have installed a macOS cursor theme.
+2. I have installed a WhiteSur gtk3 theme.
+  - I replaced the Adwaita files with the WhiteSur theme to change nautilus colors
+  - This should be unnecessary in the future - just use dconf to change the theme
+3. I made a special script to allow nautilus to open text files with alacritty nvim
+  - (Script in /scripts)
+4. I installed a nautilus extension that allows me to open alacritty in current directory
+5. I wrote a brightness control python script to scale exponentially / transition smoothly
+  - (Script in /scripts)
+6. I installed grimblast to local bin
+7. I wrote a small script for cleaning up orphaned packages
+  - (Script in /scripts)
+8. I installed a macOS SF Mono Nerd Font
+9. I replaced the loupe bin with a script to launch it with the correct theme

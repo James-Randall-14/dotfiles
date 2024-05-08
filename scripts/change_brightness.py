@@ -1,1 +1,1 @@
-change_brightness.py
+/home/james/.local/bin/change_brightness.py
