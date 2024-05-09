@@ -8,7 +8,7 @@ shell = '/bin/fish'
 
 # Set padding
 [window]
-padding = { x = 10, y = 10 }
+padding = { x = 5, y = 5 }
 dynamic_padding = true
 
 # Font Config
@@ -17,3 +17,12 @@ normal.family = 'SFMono'
 bold.family = 'SFMono'
 italic.family = 'SFMono'
 bold_italic.family = 'SFMono'
+size = 12
+
+[cursor]
+style = { shape = 'Beam', blinking = 'On' }
+vi_mode_style = { shape = 'Block', blinking = 'On' }
+blink_timeout = 0
+
+[mouse]
+hide_when_typing = true

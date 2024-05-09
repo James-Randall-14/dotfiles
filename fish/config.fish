@@ -28,10 +28,16 @@ set --global GTK_THEME WhiteSur-Dark
 # Make Chromium run native with Wayland
 alias chromium 'chromium --enable-features=UseOzonePlatform --ozone-platform=wayland'
 
-# Define FZF shortcut
+# Setup FZF
 fzf --fish | source
 set --global FZF_CTRL_T_OPTS '--no-multi 
 --bind=tab:down,btab:up --pointer=→ --color=bg+:black'
+
+# Setup Zoxide
+zoxide init fish | source
+
+# Replace cd with zoxide
+alias cd z
 
 # Replace cat with bat
 alias cat 'bat --theme ansi'
