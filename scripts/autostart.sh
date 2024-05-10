@@ -1,5 +1,6 @@
 #!/bin/env bash
 
 # Launch the Wallpaper Application
-hyprlock
 hyprpaper
+
+hyprpm reload

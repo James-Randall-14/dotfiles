@@ -2,6 +2,7 @@ if status is-interactive
   # Commands to run in interactive sessions can go here
 
   # Call fetch program
+  clear
   macchina
 end
 
@@ -9,7 +10,7 @@ end
 set fish_greeting
 
 # Edit Path Variable
-set -gx PATH $PATH:~/.local/bin
+set --global -x PATH = $PATH:/home/james/.local/bin
 
 # Set aliases
 # LunarVim:
@@ -44,6 +45,11 @@ alias cat 'bat --theme ansi'
 
 # Replace ls with eza
 alias ls 'eza --color=always --long --git --no-filesize --icons=always --no-user --no-permissions -h'
+
+# Set up redo with sudo
+function sudo!
+  eval sudo $history[1]
+end
 
 # Define Fish Prompt
 function fish_prompt

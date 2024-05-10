@@ -1,1 +1,0 @@
-/home/james/.local/bin/change_brightness.py
