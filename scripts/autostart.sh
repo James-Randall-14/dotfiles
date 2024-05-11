@@ -3,8 +3,11 @@
 # Launch the Wallpaper Application
 hyprpaper &
 
+# Launch idle daemon
+hypridle &
+
+# Reload plugins
 hyprpm reload
 
 # Set up the wob brightness 
-mkfifo /tmp/wobpipe
-tail -f /tmp/wobpipe | wob & 
+tail -f $WOBPIPE | wob & 
