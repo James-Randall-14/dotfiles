@@ -1,4 +1,4 @@
-# Hydrogen
+#Hydrogen
 
 spacing         = 2
 padding         = 0
@@ -23,7 +23,7 @@ visible         = true
 [box]
 border          = "rounded"
 visible         = true
-title           = "─sur--rice"
+title           = "─sur-rice"
 
 [box.inner_margin]
 x               = 1

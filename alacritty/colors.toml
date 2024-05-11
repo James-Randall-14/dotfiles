@@ -7,7 +7,7 @@ bright_foreground = '#D1D1D6'
 background = '#1C1C1E'
 
 [colors.normal]
-black = '#1C1C1E'
+black = '#3e3e42'
 red = '#FF3B30'
 green = '#34C759'
 yellow = '#FFCC00'
@@ -17,7 +17,7 @@ cyan = '#32ADE6'
 white = '#F2F2F7'
 
 [colors.bright]
-black = '#1C1C1E'
+black = '#3E3E42'
 red = '#FF4530'
 green = '#30D158'
 yellow = '#FFCC00'
