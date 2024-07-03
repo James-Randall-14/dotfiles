@@ -6,6 +6,9 @@ hyprpaper &
 # Launch idle daemon
 hypridle &
 
+# Launch the notify daemon
+hyprnotify &
+
 # Reload plugins
 hyprpm reload
 

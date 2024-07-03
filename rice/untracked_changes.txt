@@ -16,3 +16,4 @@ This is a list of everything that I have changed about this system that I can't 
 9. I replaced the loupe bin with a script to launch it with the correct theme
 10. I wrote a script for moving files to the trash instead of rm -rf
 11. I installed the ly desktop manager
+12. I set the systemclock to use local timezone. If dualbooting, make it use UTC.
