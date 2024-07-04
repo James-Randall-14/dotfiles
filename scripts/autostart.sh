@@ -1,8 +1,5 @@
 #!/bin/env bash
 
-# Launch the Wallpaper Application
-hyprpaper &
-
 # Launch idle daemon
 hypridle &
 

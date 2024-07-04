@@ -6,11 +6,6 @@ import icons from "lib/icons"
 const options = mkOptions(OPTIONS, {
     autotheme: opt(false),
 
-    wallpaper: {
-        resolution: opt<import("service/wallpaper").Resolution>(1920),
-        market: opt<import("service/wallpaper").Market>("random"),
-    },
-
     theme: {
         dark: {
             primary: {
@@ -41,37 +36,35 @@ const options = mkOptions(OPTIONS, {
             border: opt("#080808"),
         },
 
-        blur: opt(0),
+        blur: opt(200),
         scheme: opt<"dark" | "light">("dark"),
-        widget: { opacity: opt(94) },
+        widget: { opacity: opt(200) },
         border: {
-            width: opt(1),
+            width: opt(0),
             opacity: opt(96),
         },
 
         shadows: opt(true),
         padding: opt(7),
-        spacing: opt(12),
-        radius: opt(11),
+        spacing: opt(5),
+        radius: opt(10),
     },
 
     transition: opt(200),
 
     font: {
-        size: opt(13),
-        name: opt("Ubuntu Nerd Font"),
+        size: opt(12),
+        name: opt("SF Mono Nerd Font"),
     },
 
     bar: {
-        flatButtons: opt(true),
+        flatButtons: opt(false),
         position: opt<"top" | "bottom">("top"),
-        corners: opt(50),
+        corners: opt(0),
         transparent: opt(false),
         layout: {
             start: opt<Array<import("widget/bar/Bar").BarWidget>>([
-                "launcher",
                 "workspaces",
-                "taskbar",
                 "expander",
                 "messages",
             ]),
@@ -82,8 +75,6 @@ const options = mkOptions(OPTIONS, {
                 "media",
                 "expander",
                 "systray",
-                "colorpicker",
-                "screenrecord",
                 "system",
                 "battery",
                 "powermenu",

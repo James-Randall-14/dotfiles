@@ -10,7 +10,7 @@ end
 set fish_greeting
 
 # Edit Path Variable
-set --global -x PATH = $PATH:/home/james/.local/bin
+set --global -x PATH = $PATH:/home/james/.local/bin:/home/james/.bun/bin/
 
 # Set aliases
 # LunarVim:
