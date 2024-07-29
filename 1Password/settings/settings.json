@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "sshAgent.sshAuthorizatonModel": "application",
+  "security.authenticatedUnlock.enabled": true,
+  "authTags": {
+    "security.authenticatedUnlock.enabled": "CI9foEYF3OUUKmTvTvnilsGYbZuFvdwhs7pNQ95bGXA",
+    "sshAgent.sshAuthorizatonModel": "HKoh9biEiVyfdUQg5A/Xpfn3qwVLp1YCUMKqWBvTCIo"
+  }
+}

@@ -1,0 +1,6 @@
+2024/04/16-20:42:52.955 801e Reusing MANIFEST /home/james/.config/discordcanary/Local Storage/leveldb/MANIFEST-000001
+2024/04/16-20:42:52.956 801e Recovering log #6
+2024/04/16-20:42:52.956 801e Reusing old log /home/james/.config/discordcanary/Local Storage/leveldb/000006.log 
+2024/04/17-10:53:29.495 801f Level-0 table #10: started
+2024/04/17-10:53:29.520 801f Level-0 table #10: 27665 bytes OK
+2024/04/17-10:53:29.521 801f Delete type=0 #6

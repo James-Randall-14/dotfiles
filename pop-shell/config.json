@@ -1,0 +1,22 @@
+{
+  "float": [
+    {
+      "class": "pop-shell-example",
+      "title": "pop-shell-example"
+    },
+    {
+      "class": "floorp",
+      "title": "Library"
+    },
+    {
+      "class": "steam",
+      "title": "Steam Settings"
+    },
+    {
+      "class": "floorp",
+      "title": "Sign in - Google Accounts — Ablaze Floorp"
+    }
+  ],
+  "skiptaskbarhidden": [],
+  "log_on_focus": false
+}

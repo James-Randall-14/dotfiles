@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=system76-power profile battery
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Battery Saver
+Name=Battery Saver
+Comment[en_US]=Run a command for enabling the battery power profile
+Comment=Run a command for enabling the battery power profile

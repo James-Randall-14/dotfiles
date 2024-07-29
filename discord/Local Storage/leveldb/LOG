@@ -1,0 +1,9 @@
+2024/03/25-21:35:32.672 26200 Reusing MANIFEST /home/james/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/03/25-21:35:32.673 26200 Recovering log #321
+2024/03/25-21:35:32.673 26200 Reusing old log /home/james/.config/discord/Local Storage/leveldb/000321.log 
+2024/03/25-21:39:32.482 26200 Level-0 table #327: started
+2024/03/25-21:39:32.524 26200 Level-0 table #327: 3017568 bytes OK
+2024/03/25-21:39:32.525 26200 Delete type=0 #321
+2024/03/25-22:03:40.089 26200 Level-0 table #329: started
+2024/03/25-22:03:40.114 26200 Level-0 table #329: 13231 bytes OK
+2024/03/25-22:03:40.115 26200 Delete type=0 #326

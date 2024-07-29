@@ -7,55 +7,30 @@
 -- User plugin config
 lvim.plugins = {
   {
-      "scottmckendry/cyberdream.nvim",
-      lazy = false,
-      priority = 1000,
-      config = function()
-        -- Colorscheme Config
-          require("cyberdream").setup({
-              -- Enable transparent background
-              transparent = true, -- Default: false
-
-              -- Enable italics comments
-              italic_comments = true, -- Default: false
-
-              -- Replace all fillchars with ' ' for the ultimate clean look
-              hide_fillchars = true, -- Default: false
-
-              theme = { -- Default: nil
-
-                  -- Override a color entirely
-                  colors = {
-                      -- For a list of colors see `lua/cyberdream/colours.lua`
-                      -- Example:
-                      red = "#FF3B30",
-                      orange = "#FF9500",
-                      yellow = "#FFCC00",
-                      green = "#34C759",
-                      blue = "#007AFF",
-                      cyan = "#32ADE6",
-                      purple = "#AF52DE",
-                      pink = "#FF2D55",
-                      fg = "#D1D1D6",
-                      bg = "#1C1C1E",
-                  },
-              },
-          })
-      end,
-  },
-  {
     "norcalli/nvim-colorizer.lua",
     defaults = { lazy = true },
     config = function()
       require 'colorizer'.setup ( { '*' }, { mode = 'background' } )
     end,
   },
+  {
+    "dasupradyumna/midnight.nvim",
+    config = function()
+      require('midnight').setup {
+        HighlightGroup = {
+          fg = "#FFFFFF",
+          bg = "#000000",
+          clear = true
+        }
+      }
+    end,
+  }
 }
 
 -- Set Options
 
 -- Set Colorscheme
-lvim.colorscheme = "cyberdream"
+lvim.colorscheme = "midnight"
 
 -- Configure tabbing
 vim.opt.tabstop = 2 -- # spaces to a tab
@@ -97,13 +72,14 @@ vim.opt.mousefocus = true -- Window focused on mouse hover
 vim.opt.mousehide = true -- Hide mouse when typing
 
 -- Tweak Scrolling
+vim.opt.smoothscroll = true
 vim.opt.mousescroll = "ver:2,hor:3"
 
 -- Display vim mode at bottom
 vim.opt.showmode = true
 
 -- Set timeoutlen (increase leader menu speed)
-vim.opt.timeoutlen = 200
+vim.opt.timeoutlen = 100
 
 -- Enable cursor blinking
 vim.opt.guicursor = "n-v-sm:block,i-c-ci-ve:ver25,r-cr-o:hor20,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor"
@@ -130,9 +106,16 @@ lvim.keys.normal_mode["<C-S-V>"] = "]p"
 lvim.keys.visual_mode["p"] = "]p"
 lvim.keys.visual_mode["<C-S-V>"] = "]p"
 
+-- Map c to yank to system clipboard
+lvim.keys.visual_mode["c"] = '"+y'
+
+-- Map tab and shift + tab to indent
+lvim.keys.visual_mode["<Tab>"] = ">gv"
+lvim.keys.visual_mode["<S-Tab>"] = "<gv"
+
 -- Map buffer cycling, and buffer killing
-lvim.keys.normal_mode["<C-Tab>"] = ":BufferLineCycleNext<>"
-lvim.keys.normal_mode["<C-S-Tab>"] = ":BufferLineCyclePrev<CR>"
+lvim.keys.normal_mode["<C-l>"] = ":BufferLineCycleNext<CR>"
+lvim.keys.normal_mode["<C-h>"] = ":BufferLineCyclePrev<CR>"
 lvim.keys.normal_mode["<C-w>"] = ":BufferKill<CR>"
 
 -- THINGS TO CHANGE:
@@ -147,4 +130,3 @@ vim.api.nvim_create_autocmd("BufEnter", {
     end
   end
 })
-

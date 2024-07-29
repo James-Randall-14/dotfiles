@@ -1,0 +1,13 @@
+2024-03-26T04:35:32.816Z 0: 
+
+----------------------------------------------
+2024-03-26T04:35:32.843Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.47"}, modulepath: /home/james/.config/discord/0.0.47/modules
+2024-03-26T04:35:32.852Z 2: ✅ webContents.created web1 ""
+2024-03-26T04:35:32.856Z 3: ✅ window.created win1 "discord"
+2024-03-26T04:35:35.011Z 4: ✅ webContents.did-finish-load web1
+2024-03-26T04:35:40.045Z 5: ✅ webContents.created web2 ""
+2024-03-26T04:35:40.062Z 6: ✅ window.created win2 "Discord"
+2024-03-26T04:35:41.905Z 7: ✅ webContents.did-finish-load web2
+2024-03-26T04:35:42.004Z 8: window.close win1
+2024-03-26T04:35:42.012Z 9: webContents.destroyed web1
+2024-03-26T04:35:42.021Z 10: window.closed win1

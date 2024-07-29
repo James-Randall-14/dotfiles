@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/gnome-applications.menu</MergeFile>
+	<Menu>
+		<Name>Development</Name>
+		<AppDir>/home/james/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>python3.10.desktop</Filename>
+		</Exclude>
+	</Menu>
+	<Menu>
+		<Name>Accessories</Name>
+		<AppDir>/home/james/.local/share/applications</AppDir>
+		<Include>
+			<Filename>nvim.desktop</Filename>
+		</Include>
+	</Menu>
+</Menu>
